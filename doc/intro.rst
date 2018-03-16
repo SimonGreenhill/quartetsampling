@@ -10,9 +10,7 @@ Quartet Sampling (QS) is a method for quantifying branch support values for a ph
 
 How do I cite this program?
 ===========================
-Quartet Sampling distinguishes lack of support from conflicting support in the plant tree of life
-James B Pease, Joseph W Brown, Joseph F Walker, Cody E Hinchliff, Stephen A Smith
-bioRxiv 148536; doi: https://doi.org/10.1101/148536 
+James B Pease, Joseph W Brown, Joseph F Walker, Cody E Hinchliff, Stephen A Smith. 2018. Quartet Sampling distinguishes lack of support from conflicting support in the green plant tree of life. American Journal of Botany. doi:10.1002/ajb2.1016
 
 Please also include the URL <https://www.github.com/fephyfofum/quartetsampling> in your methods section where the program is referenced.
 
@@ -83,7 +81,7 @@ Recommended Parameters
 
 ``-L/--lnlike-thresh``: log-likelihood threshold cutoff, determines the minimum difference by which the best likelihood tree must exceed the second-best likelihood tree when comparing the three possible topologies for a given quartet replicate.
 
-.. note:: If ``-L/--lnlike-thresh`` is omitted, this will invoke an alternative mode where a tree is simply inferred from the sequence data by RAxML (or PAUP*) and likelihoods are not evaluated.  This will result in Quartet Uncertainty (QU) scores of 'NA' for all branches.
+.. note:: If ``-L/--lnlike-thresh`` is omitted, this will invoke an alternative mode where a tree is simply inferred from the sequence data by RAxML (or PAUP*) and likelihoods are not evaluated.  This will result in Quartet Informativeness (QI) scores of 'NA' for all branches.
 
 
 
